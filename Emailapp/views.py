@@ -34,6 +34,3 @@ def send_email(request):
 
     return render(request, 'send_email.html', {'form': form})
 
-
-class New:
-    pass
